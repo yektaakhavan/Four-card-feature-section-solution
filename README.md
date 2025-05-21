@@ -8,7 +8,7 @@ This is a solution to the Four card feature section solution challenge on Fronte
 <div align="center"> <img src="./design/desktop-design.jpg" alt="Four card feature section solution" width="300px" /> </div>
 
 📷 Mobile Design
-<div align="center"> <img src="./design/mobile-design.jpg" alt="Four card feature section solution" width="300px" /> </div>
+<div align="center"> <img src="./design/mobile-design.jpg" alt="Four card feature section solution" width="200px" /> </div>
 
 🔧 Built With
 ✅Semantic HTML5 markup
