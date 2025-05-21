@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+:root {
+    --color-Neutral-white: hsl(0, 0%, 100%);
+    --color-Neutral-Grey500: hsl(234, 12%, 34%);
+    --color-Neutral-Grey400: hsl(212, 6%, 44%);
+
+    --color-primary-Supervisor: hsl(180, 62%, 55%);
+    --color-primary-TeamBuilder: hsl(0, 78%, 62%);
+    --color-primary-Karma: hsl(34, 97%, 64%);
+    --color-primary-Calculator: hsl(212, 86%, 64%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--color-Neutral-white);
+    font-size: 15px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-Neutral-Grey400);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1.title {
+    font-weight: 400;
+}
+
+h1.creator {
+    color: var(--color-Neutral-Grey500);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.desc {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.team {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.box {
+    box-shadow: hsla(212, 86%, 64%, 0.2) 0px 8px 27px;
+    border-radius: 8px;
+    padding: 25px;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+.desc-card {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+.Supervisor {
+    border-top: 4px solid var(--color-primary-Supervisor);
+
+}
+
+.Team-Builder {
+    border-top: 4px solid var(--color-primary-TeamBuilder);
+
+}
+
+
+.Karma {
+    border-top: 4px solid var(--color-primary-Karma);
+
+}
+
+.Calculator {
+    border-top: 4px solid var(--color-primary-Calculator);
+
+}
+
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+}
+
+
+.icon img {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        align-items: center;
+        padding: 30px;
+    }
+
+    .team {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: none;
+    }
+
+    .desc {
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+    }
+
+
+    h1.title {
+        font-size: 16px;
+    }
+
+    h1.creator {
+        font-size: 16px;
+    }
+}
